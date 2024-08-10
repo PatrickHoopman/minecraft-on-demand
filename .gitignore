@@ -1,0 +1,24 @@
+*.js
+!*.config.js
+!**/__generated__/**
+!.*rc.js
+*.d.ts
+node_modules
+.vscode
+coverage
+junit.xml
+.env
+.idea/
+
+# CDK asset staging directory
+.cdk.staging
+cdk.out
+cdk.context.json
+
+dist
+
+.npmrc
+yarn-error.log
+cdk-outputs.json
+
+.cognito/
